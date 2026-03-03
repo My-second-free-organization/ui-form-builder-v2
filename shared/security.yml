@@ -1,0 +1,9 @@
+security:
+  tls: { min-version: "1.2" }
+  headers:
+    strict-transport-security: "max-age=31536000; includeSubDomains"
+    x-content-type-options: nosniff
+    x-frame-options: DENY
+  rate-limiting:
+    global: { rps: 10000, burst: 20000 }
+    per-tenant: { rps: 1000, burst: 2000 }

@@ -1,0 +1,9 @@
+{
+  "flags": [
+    {"key": "new-workflow-editor", "name": "New Workflow Editor v3", "enabled": true, "environments": {"dev": true, "staging": true, "production": false}, "rollout_percentage": 0},
+    {"key": "ai-task-routing", "name": "AI Task Routing", "enabled": true, "environments": {"dev": true, "staging": true, "production": true}, "rollout_percentage": 25},
+    {"key": "document-ai-extraction", "name": "AI Document Extraction", "enabled": true, "environments": {"dev": true, "staging": true, "production": true}, "rollout_percentage": 50},
+    {"key": "advanced-analytics", "name": "Advanced Analytics", "enabled": true, "environments": {"dev": true, "staging": true, "production": false}},
+    {"key": "multi-region", "name": "Multi-Region Deployment", "enabled": false}
+  ]
+}

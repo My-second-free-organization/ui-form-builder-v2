@@ -1,0 +1,6 @@
+server:
+  port: 8080
+  rate-limit:
+    requests-per-second: 400
+cors:
+  allowed-origins: '*'

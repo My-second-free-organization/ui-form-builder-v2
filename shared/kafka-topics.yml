@@ -1,0 +1,14 @@
+topics:
+  - name: flowforge.events.workflow
+    partitions: 6
+    replication-factor: 3
+  - name: flowforge.events.task
+    partitions: 6
+    replication-factor: 3
+  - name: flowforge.events.integration
+    partitions: 12
+    replication-factor: 3
+  - name: flowforge.events.audit
+    partitions: 6
+    replication-factor: 3
+    config: { cleanup.policy: compact }

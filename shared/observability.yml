@@ -1,0 +1,7 @@
+metrics:
+  prometheus: { enabled: true, port: 9090, path: /metrics }
+tracing:
+  enabled: true
+  exporter: otlp
+  endpoint: http://otel-collector:4317
+  sampling-rate: 0.1

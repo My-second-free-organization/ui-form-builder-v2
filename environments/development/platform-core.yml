@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+flowforge:
+  engine:
+    thread-pool-size: 5
+    max-concurrent-workflows: 1000
